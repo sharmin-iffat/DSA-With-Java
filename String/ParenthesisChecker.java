@@ -4,6 +4,7 @@ public class ParenthesisChecker {
     // Function to check if brackets are balanced or not.
     static boolean isParenthesisBalanced(String s) {
         // code here
+        //This solution is not correct 
         int i=0;
         int j= s.length()-1;
         while(i<j){
